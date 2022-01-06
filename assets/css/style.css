@@ -20,13 +20,18 @@ h1{
     display: inline-grid;
     padding-left: 15px;
 }
-h1 span{
+h1 span,h2 span{
     color:#4535FF;
+}
+h2{
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333; 
 }
 img{
      width: 100%; 
     }
-header,section{
+header,.sectionOne,.myBlog{
     display: flex;
     margin:50px 100px;
 }
@@ -53,4 +58,98 @@ header,section{
 }
 .headerImg{
     width: 45%;
+}
+
+section.sectionOne {
+    display: flex;
+    flex-direction: column;
+}
+.sectionTitle {
+    text-align: center;
+}
+.sectionInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.missionBox {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.box1{
+    background: #d7f9ff;
+}
+.box2{
+    background: #ffa3a35e;
+}
+.box3{
+    background: #fff4d7;
+}
+.missionBox img {
+    width: 141px;
+    height: 141px;
+}
+
+.missionBox h6 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0;
+}
+.sectionTwo, .sectionThree{
+    display: flex;
+    margin:50px 40px;
+}
+.sectionTwo .sectionImg {
+    padding-left: 90px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.sectionImg{
+    width: 35%;
+}
+.sectionData{
+    width: 60%;
+}
+.sectionTwo.sectionData{
+    margin-right: 60px;
+}
+.sectionData h3 {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+}
+.sectionTwo .sectionData {
+    margin-left: 50px;
+}
+.sectionThree .sectionData{
+    margin: 0px 50px;
+}
+
+.myBlog_list {
+    display: flex;
+}
+.myBlogSingle {
+    margin: 15px;
+    border-radius: 25px;
+    background: #f9feff;
+    padding: 20px;
+    box-shadow: -1px 3px 17px -5px rgba(196,196,196,0.75);
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer-logo h2 {
+    color: #fff;
+    font-style: italic;
+    margin: 0px;
+    font-size: 40px;
+}
+.footer-text p {
+    color: #ddd;
 }
